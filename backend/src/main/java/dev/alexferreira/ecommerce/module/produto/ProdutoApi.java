@@ -1,7 +1,13 @@
 package dev.alexferreira.ecommerce.module.produto;
 
+import dev.alexferreira.ecommerce.module.produto.exception.ProdutoNãoEncontradoException;
+
+import java.util.List;
+
 public interface ProdutoApi {
 
-	String getProduto();
+	List<Produto> getTodosProdutos();
+
+	String getProduto(Long id) throws ProdutoNãoEncontradoException;
 
 }
