@@ -1,4 +1,4 @@
-package dev.alexferreira.ecommerce.module.produto;
+package dev.alexferreira.ecommerce.module.produto.model;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
